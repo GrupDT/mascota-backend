@@ -1,6 +1,7 @@
 import {Adapcion,Mascota} from '../Models/index.js';
 
 /**
+ * getAdapciones
  * obtener el listado de adopciones
  * @param {*} req 
  * @param {*} res 

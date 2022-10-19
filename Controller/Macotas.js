@@ -87,7 +87,7 @@ const postMascota = async (req, res) => {
         console.log("mascota")
         const { file } = req
 
-        const imagen = `urlBase/${file.filename}`
+        const imagen = `${urlBase}/${file.filename}`
 
 
         const { id_mascota, nombre, descripcion, categoria } = req.body
